@@ -1,51 +1,44 @@
-Bitcoin Core integration/staging tree
+International Virtual Currency Integration/Staging Tree 
 =====================================
 
-[![Build Status](https://travis-ci.org/bitcoin/bitcoin.svg?branch=master)](https://travis-ci.org/bitcoin/bitcoin)
+Currently based on Bitcoin Core
 
-https://bitcoincore.org
+https://ivc-project.com
 
-What is Bitcoin?
+What is IVC (International Virtual Currrency)?
 ----------------
 
-Bitcoin is an experimental digital currency that enables instant payments to
-anyone, anywhere in the world. Bitcoin uses peer-to-peer technology to operate
-with no central authority: managing transactions and issuing money are carried
-out collectively by the network. Bitcoin Core is the name of open source
-software which enables the use of this currency.
+IVC (International Virtual Currency) is an experimental digital currency that enables instant payments to anyone, anywhere in the world, also something I wanted to learn in an attempt to make an alternative payment method. IVC uses peer-to-peer technology to operate with no central authority: managing transactions and issuing money are carried out collectively by the network. IVC Core is the name of open source software which enables the use of this currency.
 
-For more information, as well as an immediately useable, binary version of
-the Bitcoin Core software, see https://bitcoin.org/en/download, or read the
-[original whitepaper](https://bitcoincore.org/bitcoin.pdf).
+For more information, as well as an immediately useable, binary version of the IVC Core software, see https://ivc-project.com/en/download, or read the [original whitepaper](https://ivc-project.com/ivc-project.pdf).
 
 License
 -------
 
-Bitcoin Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
+IVC Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
 information or see https://opensource.org/licenses/MIT.
 
 Development Process
 -------------------
 
 The `master` branch is regularly built and tested, but is not guaranteed to be
-completely stable. [Tags](https://github.com/bitcoin/bitcoin/tags) are created
-regularly to indicate new official, stable release versions of Bitcoin Core.
+completely stable. [Tags](https://github.com/IVC_Project/IVC_Project/tags) are created
+regularly to indicate new official, stable release versions of IVC Core.
 
 The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md).
 
-The developer [mailing list](https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-dev)
+The developer [mailing list](https://lists.linuxfoundation.org/mailman/listinfo/ivc-dev)
 should be used to discuss complicated or controversial changes before working
 on a patch set.
 
-Developer IRC can be found on Freenode at #bitcoin-core-dev.
+Developer IRC can be found on Freenode at #ivc-core-dev.
 
 Testing
 -------
 
-Testing and code review is the bottleneck for development; we get more pull
-requests than we can review and test on short notice. Please be patient and help out by testing
+Testing and code review are a bottleneck for development. Please be patient and help out by testing
 other people's pull requests, and remember this is a security-critical project where any mistake might cost people
-lots of money.
+significant money.
 
 ### Automated Testing
 
@@ -71,7 +64,7 @@ Translations
 ------------
 
 Changes to translations as well as new translations can be submitted to
-[Bitcoin Core's Transifex page](https://www.transifex.com/projects/p/bitcoin/).
+[IVC Core's Transifex page](https://www.transifex.com/projects/p/ivc-project/).
 
 Translations are periodically pulled from Transifex and merged into the git repository. See the
 [translation process](doc/translation_process.md) for details on how this works.
@@ -79,4 +72,4 @@ Translations are periodically pulled from Transifex and merged into the git repo
 **Important**: We do not accept translation changes as GitHub pull requests because the next
 pull from Transifex would automatically overwrite them again.
 
-Translators should also subscribe to the [mailing list](https://groups.google.com/forum/#!forum/bitcoin-translators).
+Translators should also subscribe to the [mailing list](https://groups.google.com/forum/#!forum/ivc-translators).
